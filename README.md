@@ -1,7 +1,7 @@
 # Learning Golang
 
 # Variables
-// define a variable based onn datatype
+// define a variable based on datatype
 ```
 var variable_name datatype = value <br />
 ```
@@ -10,3 +10,44 @@ var variable_name datatype = value <br />
 variable_name := value <br /> 
 ```
 
+# Const
+```
+const variable_name = value
+```
+
+# loops
+```
+for i := 0; i < range ; i++ {
+    // functionality
+  }
+for index,value := range values{
+  // functionality
+}
+```
+
+# Arrays
+```
+var a [size] int
+
+b := [5]int{1, 2, 3, 4, 5}
+
+var twoD [2][3]int
+```
+# Slices
+// declaration
+```
+s := make([]string, len(variable))
+twoD := make([][]datatype, size)
+
+
+```
+// adding a new element
+```
+s = append(s, "d")
+```
+// copying 
+```
+copy(c, s)
+
+c := s[start_index:end_index(not included)]
+```
