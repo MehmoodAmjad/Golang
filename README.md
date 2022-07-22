@@ -10,11 +10,11 @@ input2 := bufio.NewReader(os.Stdin)
 fmt.Println("Enter the rating for our pizza:")
 ```
 # Variables
-// define a variable based on datatype
+define a variable based on datatype
 ```
 var variable_name datatype = value <br />
 ```
-// self assign datatype depending onn values
+self assign datatype depending onn values
 ```
 variable_name := value <br /> 
 ```
@@ -43,18 +43,18 @@ b := [5]int{1, 2, 3, 4, 5}
 var twoD [2][3]int
 ```
 # Slices
-// declaration
+declaration
 ```
 s := make([]string, len(variable))
 twoD := make([][]datatype, size)
 
 
 ```
-// adding a new element
+adding a new element
 ```
 s = append(s, "d")
 ```
-// copying 
+copying 
 ```
 copy(c, s)
 
@@ -110,12 +110,12 @@ fmt.Println("Length : ", length)
 defer file.Close()
 ```
 # Reading from file
-// reads in bytes
+reads in bytes
 ```
-	databyte, err := ioutil.ReadFile("./testgologfile.txt")
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println("Data in file : ", string(databyte))
-	fmt.Printf("type of error %T\n", err)
+databyte, err := ioutil.ReadFile("./testgologfile.txt")
+if err != nil {
+	panic(err)
+}
+fmt.Println("Data in file : ", string(databyte))
+fmt.Printf("type of error %T\n", err)
 ```
