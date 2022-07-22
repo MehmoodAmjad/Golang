@@ -1,5 +1,14 @@
 # Learning Golang
 
+# Input and in Golang
+```
+var input int
+fmt.Scanln(&input)
+fmt.Println("The number that we input :", input)
+ 
+input2 := bufio.NewReader(os.Stdin)
+fmt.Println("Enter the rating for our pizza:")
+```
 # Variables
 // define a variable based on datatype
 ```
